@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Все Услуги - Центр социальной поддержки</title>
+    <link rel="stylesheet" href="css/services.css">
+</head>
+<body>
+    <header class="header">
+        <div class="footer-info">
+            <img class="logo" src="images/logo.png" alt="Логотип">
+            <h1>Центр социальной поддержки населения Икрянинского района</h1>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="about.html">О нас</a>
+        <a href="services.html">Услуги</a>
+        <a href="#news">Новости</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+
+    <section id="all-services">
+
+        <div class="grid">
+            <!-- Блок услуги 1 -->
+            <div class="grid-item">
+                <img src="images/s1.jpg" alt="Услуга 1">
+                <p>Пособия семьям с детьми</p>
+            </div>
+
+            <!-- Блок услуги 2 -->
+            <div class="grid-item">
+                <img src="images/s2.jpg" alt="Услуга 2">
+                <p>Многодетные</p>
+            </div>
+
+            <!-- Блок услуги 3 -->
+            <div class="grid-item">
+                <img src="images/s3.jpg" alt="Услуга 3">
+                <p>Субсидии на оплату жилого помещения и коммунальных услуг</p>
+            </div>
+
+            <!-- Блок услуги 4 -->
+            <div class="grid-item">
+                <img src="images/s4.jpg" alt="Услуга 4">
+                <p>Государственная социальная помощь</p>
+            </div>
+
+            <!-- Дополнительные блоки услуг по мере необходимости -->
+        </div>
+        <div class="grid">
+            <!-- Блок услуги 1 -->
+            <div class="grid-item">
+                <img src="images/s5.jpg" alt="Услуга 1">
+                <p>Ветераны</p>
+            </div>
+
+            <!-- Блок услуги 2 -->
+            <div class="grid-item">
+                <img src="images/s6.jpg" alt="Услуга 2">
+                <p>люди с инвалидностью</p>
+            </div>
+
+            <!-- Блок услуги 3 -->
+            <div class="grid-item">
+                <img src="images/s7.png" alt="Услуга 3">
+                <p>Социальный контракт</p>
+            </div>
+
+            <!-- Блок услуги 4 -->
+            <div class="grid-item">
+                <img src="images/s8.png" alt="Услуга 4">
+                <p>Бесплатная юридическая помощь</p>
+            </div>
+
+            <!-- Дополнительные блоки услуг по мере необходимости -->
+        </div>
+        <div>
+            <p>Если у вас есть вопросы, заполните форму обратной связи:</p>
+
+            <form id="contactForm">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Ваш email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="button" onclick="submitForm()">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <img src="images/free-icon-vkontakte-4494517.png" alt="Facebook">
+            <img src="images/free-icon-telegram-2111646.png" alt="Instagram">
+            <img src="images/free-icon-odnoklassniki-3670250.png" alt="YouTube">
+            <img src="images/free-icon-whatsapp-3670051.png" alt="Twitter">
+        </div>
+
+        <div class="row">
+            <ul style="font-weight: bold;">
+                <li><a href="#">Свяжитесь с нами</a></li>
+                <li><a href="#">Наши услуги</a></li>
+                <li><a href="#">Политика конфиденциальности</a></li>
+                <li><a href="#">Условия использования</a></li>
+                <li><a href="#">Карьера</a></li>
+            </ul>
+        </div>
+
+        <div class="row">
+            <p style="font-weight: bold; line-height: 1.5;">
+                Центр социальной поддержки населения Икрянинского района<br>
+                Адрес: ул. Примерная, 123<br>
+                Телефон: +7 (123) 456-7890<br>
+                Email: info@socialsupport-ikrya.ru
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
